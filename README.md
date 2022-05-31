@@ -37,5 +37,7 @@ Social Login: Login using Twitter, Facebook, Google, etc. through Web3Auth was o
 
 Allowing users to upload: Allowing users to create NFT albums and upload data through Bundlr was omitted due to UI issues with current implementations of Bundlr when used alongside Moralis and also being unable to test this sufficiently because of associated costs.
 
+The app isn't deployed on arweave yet because I was determined to get the deployment done through Spheron (to test the app) and was constantly running into errors. Deployment on arweave will be explored through arkb if this doesn't pan out.
+
 
 Thanks for looking through!
