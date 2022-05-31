@@ -1,6 +1,6 @@
 # 3-fi: Decentralized Music Streaming Build with Arweave
 
-This is decentralized music storage and streaming application built with Moralis, using Arweave and bundlr for data storage and has contracts deployed on Polygon's Mumbai testnet.
+This is a decentralized music storage and streaming application built with Moralis, using Arweave and bundlr for data storage and has contracts deployed on Polygon's Mumbai testnet.
 
 'Albums' are ERC721 NFT collections and songs are the individual tokens in the collection
 
@@ -29,7 +29,7 @@ and
 
 ## Important considerations/ommissions
 
-The current metadata is stored using bundlr's devnet, hence the loading speed can *sometimes* be quite slow for playing songs (worst-case around 20-25 secs), please bear with me on this as significant improvement is expected using fully paid tiers.
+The current metadata is stored using bundlr's devnet, hence the loading speed can **sometimes** be quite slow for playing songs (worst-case around 20-25 secs), please bear with me on this as significant improvement is expected using fully paid tiers.
 
 Certain features were omitted even though code is ready (expected to be published in a few days) due to the below reasons:
 
