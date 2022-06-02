@@ -31,6 +31,8 @@ and
 
 The current metadata is stored using bundlr's devnet, hence the loading speed can **sometimes** be quite slow for playing songs (worst-case around 20-25 secs), please bear with me on this as significant improvement is expected using fully paid tiers.
 
+Update: The above point was an incorrect assumption and a change in the fetching logic of the music player has caused signinficant improvement in load times.
+
 Certain features were omitted even though code is ready (expected to be published in a few days) due to the below reasons:
 
 Social Login: Login using Twitter, Facebook, Google, etc. through Web3Auth was omitted as there is currently an issue with Moralis' integration of Web3Auth due to faulty RPC URL configuration.
