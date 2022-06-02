@@ -16,6 +16,8 @@ const useAudio = (url) => {
 
   const { duration } = audioRef.current;
 
+  let playCheck = audio.currentTime > 0 && !audio.paused && !audio.ended && audio.readyState > audio.HAVE_CURRENT_DATA;
+
   const toPrevTrack = () => {
     if (trackIndex - 1 < 0) {
       setTrackIndex(audio.length - 1);
@@ -44,6 +46,7 @@ const useAudio = (url) => {
 
   useEffect(() => {
     if (isPlaying) {
+      console.log(audioRef.current.isPlaying)
       audioRef.current.play();
       startTimer();
     } else {
@@ -54,6 +57,7 @@ const useAudio = (url) => {
 
   useEffect(() => {
     return () => {
+      console.log(audioRef.current.isPlaying)
       audioRef.current.pause();
       clearInterval(intervalRef.current);
     };

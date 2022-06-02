@@ -7,7 +7,7 @@ export const library = [
     {
       title: "3fi Samples",
       image:
-        "http://arweave.net/QeXTw4GDt1Eui3CWALO839TNVHjE-QHyl7Ppr9oqzh4",
+        "https://hhuie7qnkuazjnm5gvuohfi6tqfzeydzgg4vxs2la3czrjo3j4.arweave.net/QeXTw4GDt1Eui3CWALO839TNVHjE-QHyl7Ppr9oqzh4",
       contract: "0x648534Aa585Ef852244eD5c449d60478d3bF523C",
     },
     {

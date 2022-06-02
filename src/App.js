@@ -6,7 +6,7 @@ import Album from './pages/Album';
 import Favorites from "./pages/Favorites";
 import './App.css';
 import { Link } from "react-router-dom";
-import Player from "./components/AudioPlayer";
+import ArweavePlayer from "./components/ArweavePlayer";
 import { Layout, Spin } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import Auth from './components/Auth';
@@ -60,7 +60,7 @@ const App = () => {
         </Layout>
         <Footer className="footer">
           {nftAlbum &&
-          <Player
+          <ArweavePlayer
             url={nftAlbum}
           />
           }

@@ -16,6 +16,7 @@ const Album = ({ setNftAlbum }) => {
   const { Moralis, account } = useMoralis();
   const [favoriteList, setFavoritelist] = useState();
   const [fullAlbum, setFullAlbum] = useState();
+  const [testAudio, setTestAudio] = useState(false);
 
   const fetchData = async (url) => {
     const response = await fetch(url)
@@ -126,6 +127,13 @@ const Album = ({ setNftAlbum }) => {
             );
           })}
       </div>
+      {testAudio &&
+        <div>
+          <audio controls autoplay>
+            <source src="https://m24sgiq6yjsmjzbsvnoyvxb3za5gjy2caoxid5zkfysisadj.arweave.net/ZrkjIh7CZMTkMqt_ditw7yDpk40IDroH3-Ki4kiQBpM/" type="audio/mp3" />
+          </audio>
+        </div>
+      }
     </>
   );
 };
