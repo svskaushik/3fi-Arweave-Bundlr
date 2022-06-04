@@ -1,5 +1,5 @@
 import ReactJkMusicPlayer from 'react-jinke-music-player'
-import 'react-jinke-music-player/assets/index.css'
+import './ArweavePlayer.css'
 import React, { useState, useEffect, useRef } from "react";
 
 const ArweavePlayer = (url) => {
